@@ -1,0 +1,13 @@
+package Soal3;
+
+import java.util.Scanner;
+
+public class soal3 {
+    public static void main(String[] args) {
+        char a = '1';
+        char b = '2';
+
+        int asciiSum = (int) a + (int) b;
+        System.out.println("Jumlah ASCII dari karakter '1' dan '2' adalah: " + asciiSum);
+    }
+}
